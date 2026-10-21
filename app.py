@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from ultralytics import YOLO
-
+ 
 model = YOLO('yolov8n.pt') 
 cap = cv2.VideoCapture('17604987-hd_1920_1080_30fps.mp4')
 
