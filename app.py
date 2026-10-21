@@ -4,7 +4,7 @@ from ultralytics import YOLO
  
 model = YOLO('yolov8n.pt') 
 cap = cv2.VideoCapture('17604987-hd_1920_1080_30fps.mp4')
-
+   
 count_line_y = 400 
 track_history = {} 
 counted_ids = set() 
